@@ -6,6 +6,6 @@ class Persona(models.Model):
     edad = models.IntegerField()
 
     def __unicode__(self):
-        #return (self.cedula_id, self.nombre, self.edad)
-        return u'{0}-{1}'.format(self.cedula_id, self.nombre, self.edad)
+        return (self.edad)
+        #return u'{0}-{1}'.format(self.cedula_id, self.nombre, self.edad)
 
